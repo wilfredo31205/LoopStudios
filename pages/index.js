@@ -99,26 +99,15 @@ const Inicio = () => {
           </ul>
 
           <div className="LogoSociales">
-            <a href="!#">
-              <img src={LogoFB} alt="" />
-            </a>
-            <a href="!#">
-              <img src={LogoTwitter} alt="" />
-            </a>
-            <a href="!#">
-              <img src={LogoPinteres} alt="" />
-            </a>
-            <a href="!#">
-              <img src={LogoInstagram} alt="" />
-            </a>
+      
             
-            {/* <Image src={LogoFB} className="logo" />
+             <Image src={LogoFB} className="logo" />
 
             <Image src={LogoTwitter} className="logo" />
 
             <Image src={LogoPinteres} className="logo" />
 
-            <Image src={LogoInstagram} className="logo" /> */}
+            <Image src={LogoInstagram} className="logo" /> 
           </div>
 
           <div className="subtitulo">
