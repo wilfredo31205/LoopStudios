@@ -1,17 +1,20 @@
+
+
 {
   "name": "loopstudios",
   "version": "0.1.0",
+  "builds": [{ "src": "package.json", "use": "@now/next" }],
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
     "export": "next export",
-    "now-build": "next build && next export -o dist"
+    "now-build": "next build"
   },
   "dependencies": {
     "date-fns": "^2.23.0",
-    "next": "11.1.0",
+    "next": "^11.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
