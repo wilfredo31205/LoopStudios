@@ -12,6 +12,11 @@
     "export": "next export",
     "now-build": "next build"
   },
+  "scripts": {
+    "make-q": "node ./build.js",
+    "build": "yarn run make-q && next build"
+},
+
   "dependencies": {
     "date-fns": "^2.23.0",
     "next": "^11.1.0",
