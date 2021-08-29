@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "export": "next export"
+    "export": "next export",
+    "now-build": "next build && next export -o dist"
   },
   "dependencies": {
     "date-fns": "^2.23.0",
